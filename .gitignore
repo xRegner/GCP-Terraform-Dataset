@@ -1,1 +1,9 @@
 auth/*.json
+*.tfstate
+*.tfstate.backup
+
+
+
+
+# Python
+.venv
