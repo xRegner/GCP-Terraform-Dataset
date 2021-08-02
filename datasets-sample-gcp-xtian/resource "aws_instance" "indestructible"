@@ -1,0 +1,12 @@
+resource "aws_instance" "indestructible" {
+  count = "${var.prevent_destroy ? "1" : "0"}"
+  lifecycle {
+    prevent_destroy = "true"
+  }
+  ...
+}
+resource "aws_instance" "destructible" {
+  count = "${var.prevent_destroy ? "0" : "1"}"
+  lifecycle {
+    prevent_destroy = "false"
+  }

@@ -3,6 +3,8 @@
 resource "google_storage_bucket" "my_bucket_xtian_pro" {
   name     = var.bucket_name
   location = var.region
+
+
 }
 
 

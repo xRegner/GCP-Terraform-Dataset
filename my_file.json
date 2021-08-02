@@ -1,0 +1,5 @@
+{
+    "prevent_destroy" : "true",
+    "var-y": "this variable value y",
+    "var-z": "this is z"
+}
