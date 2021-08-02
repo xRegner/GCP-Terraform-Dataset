@@ -1,6 +1,6 @@
 auth/*.json
-*.tfstate
-*.tfstate.backup
+datasets-sample-gcp-xtian/.tfstate
+datasets-sample-gcp-xtian/.tfstate.backup
 
 
 
